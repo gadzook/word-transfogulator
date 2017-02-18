@@ -25,9 +25,9 @@ def transfogulate(str_list):
 def collect_strings():
 	"""collects strings to be transfogulated"""
 	str_list = []
-	number_of_strings = int(input("How many strings?:  "))
+	number_of_strings = int(input("How many strings?:\t"))
 	for i in range(number_of_strings):
-		str_list.append(str(input("Word %s:  " % (i+1))))
+		str_list.append(str(input("Word %s:\t" % (i+1))))
 	return str_list
 
 strs = collect_strings()
